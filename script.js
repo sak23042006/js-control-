@@ -9,5 +9,13 @@ while (i < 101) {
   i += 2;
 }
 // Challenge 3: Create a do while loop to print all the multiples of 3 till 100 in the console.
+i=1
+do{
+  for(i;i<101,i++){
+    if (i%3==0){
+      console.log(i)
+    }
+  }
+}while(i<97);
 
 // Challenge 4: Create a for loop to print all the prime numbers till 100 in the console.
