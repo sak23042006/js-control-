@@ -19,8 +19,10 @@ do {
 } while (i < 97);
 
 // Challenge 4: Create a for loop to print all the prime numbers till 100 in the console.
-for (i = 0; i < 101; i++) {
-  if (i % 1 == 0 && i % i == 0 && i % 2 != 0) {
-    console.log(i);
+for (i = 2; i < 101; i++) {
+  for (j = 2; j / 2; j++) {
+    if (num % j == 0) {
+      console.log(i);
+    }
   }
 }
