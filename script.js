@@ -17,5 +17,17 @@ do {
     }
   }
 } while (i < 97);
-
 // Challenge 4: Create a for loop to print all the prime numbers till 100 in the console.
+// Challenge 4: Create a for loop to print all the prime numbers till 100 in the console.
+
+for (i = 2; i < 101; i++) {
+  isprime = true;
+  for (j = 2; j <= i / 2; j++) {
+    if (i % j == 0) {
+      isprime = false;
+    }
+  }
+  if (isprime) {
+    console.log(i);
+  }
+}
